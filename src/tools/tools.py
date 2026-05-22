@@ -20,7 +20,7 @@ def web_search(query:str)->str:
     Args:
         arg1: query = input string
     """
-    results = tavily.search(search_depth='basic',max_results=2,query=query)
+    results = tavily.search(search_depth='basic',max_results=5,query=query)
 
     out =[]
 
