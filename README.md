@@ -137,6 +137,3 @@ Edit prompts in `src/agents/agents.py` to customize:
 ### Add New Tools
 Extend the system by adding new tools to `src/tools/tools.py` and integrating them into the agents.
 
-## License 📄
-
-This project is open source and available for educational and research purposes.
