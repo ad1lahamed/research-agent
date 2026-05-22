@@ -1,6 +1,5 @@
-def main():
-    print("Hello from research-agent!")
+from src.tools.tools import web_search,scrape_url
 
 
-if __name__ == "__main__":
-    main()
+r = web_search.invoke("cristiano ronaldo")
+print(r)
